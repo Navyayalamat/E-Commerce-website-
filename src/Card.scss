@@ -1,0 +1,20 @@
+.card{
+    display: flex;
+    color: #000;
+    background-color: #fffbf7;
+    box-shadow: 0 0 1px #00000024, 0 1px 6px #00000033; 
+    height: 350px;
+    width: 400px;
+    flex-direction: column;
+    margin: 10px;
+    .bottom{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+.display-img{
+    width: 150px;
+    height: 100px;
+}

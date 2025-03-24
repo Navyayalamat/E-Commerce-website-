@@ -1,0 +1,30 @@
+.header {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(8, 8, 86);
+    width: 100%;
+
+  }
+.mini-logo{
+    height: 75px;
+    width: 120px;
+    float: left;
+}
+
+.menu  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .menu li  {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
