@@ -1,0 +1,18 @@
+.back-button{
+    float: left;
+}
+.product-description{
+    display: flex;
+    margin: 50px 50px;
+    .display-img{
+        height: 400px;
+        width: 500px;
+    }
+    .description{
+        flex-flow: wrap;
+        padding: 20px;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}
+

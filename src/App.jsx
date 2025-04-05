@@ -1,8 +1,9 @@
-import { useState } from 'react'
 import './App.css'
 import ProductList from './ProductList';
 import Product from './Product';
-import { Routes, Route , Router} from "react-router-dom";
+import AddProduct from './AddProduct';
+
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 
 function App() {
@@ -11,11 +12,10 @@ function App() {
     <>
       <div>
             <Routes class="menu">
-                <Route path="/" />
-                <Route path="products" element={<Product />}>
-                {/* Define child routes */}
-                <Route path="list" element={<ProductList />} />
-                </Route>
+                <Route path="/"  />
+                <Route path="products" element={<Product />}/>
+                <Route path="/products/:id" element={<ProductList />} />
+                <Route path="add" element={<AddProduct/>}/>
             </Routes>
         
         {/* <a href="https://vite.dev" target="_blank">

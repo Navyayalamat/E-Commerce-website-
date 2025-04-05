@@ -5,4 +5,17 @@
     // flex-direction: row;
     flex-flow: wrap;
 }
+.listPage{
+    display: flex;
+    flex-direction: row;
+}
+.filters{
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
 
+.select-tag{
+    width: 120px;
+    height: 35px;
+}
